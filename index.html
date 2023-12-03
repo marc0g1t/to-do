@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="father">
+        <div class="to_do card">
+          <div class="top">
+            <p class="title">To do</p>
+            <p class="count">0</p>
+          </div>
+          <div class="middle">
+            <div class="check">
+              <p class="correct">✓</p>
+            </div>
+            <div class="content">
+              <p class="card_title">Title</p>
+              <p class="card_desc">Description</p>
+              <p class="card_prior">Mid</p>
+            </div>
+            <div class="icons">
+              <div class="identical">
+                <i class="fa-solid fa-x fa-2xs" style="color: #000000"></i>
+              </div>
+              <div class="identical">
+                <i
+                  class="fa-regular fa-pen-to-square fa-sm"
+                  style="color: #000000"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="bottom"><p>+ Add card</p></div>
+        </div>
+
+        <div class="in_progress card">
+          <div class="top">
+            <p class="title">In progress</p>
+            <p class="count">0</p>
+          </div>
+          <div class="middle"></div>
+          <div class="bottom"><p>+ Add card</p></div>
+        </div>
+        <div class="stuck card">
+          <div class="top">
+            <p class="title">Stuck</p>
+            <p class="count">0</p>
+          </div>
+          <div class="middle"></div>
+          <div class="bottom"><p>+ Add card</p></div>
+        </div>
+        <div class="done card">
+          <div class="top">
+            <p class="title">Done</p>
+            <p class="count">0</p>
+          </div>
+          <div class="middle"></div>
+          <div class="bottom"><p>+ Add card</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="big" id="big">
+      <div class="big_2">
+        <div class="Add_task"><h1>Add Task</h1></div>
+        <div class="Title">
+          <p>Title</p>
+          <input class="width100" type="text" />
+        </div>
+        <div class="Description">
+          <p>Description</p>
+          <input class="width100 Description_input" type="text" />
+        </div>
+        <div class="Status">
+          <p>Status</p>
+          <select class="width100" name="" id="">
+            <option value="">To do</option>
+            <option value="">In progress</option>
+            <option value="">Stuck</option>
+            <option value="">Done</option>
+          </select>
+        </div>
+        <div class="Priority">
+          <p>Priority</p>
+          <select class="width100" name="" id="">
+            <option value="">Low</option>
+            <option value="">Mid</option>
+            <option value="">High</option>
+          </select>
+        </div>
+        <div class="Add_task_botton">
+          <div class="button">
+            <p>Add task</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/45191d5154.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./app.js"></script>
+</html>
