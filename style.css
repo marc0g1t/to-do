@@ -1,0 +1,143 @@
+body {
+  background-image: url(./trunks.webp);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+}
+.container {
+  width: 1600px;
+  height: 350px;
+  /* border-style: solid; */
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.sub {
+  width: 380px;
+  height: 350px;
+  /* border-style: solid; */
+  border-radius: 15px;
+  background-color: #ebecf0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lightning {
+  width: 360px;
+  height: 320px;
+  /* border-style: solid; */
+  /* border-color: red; */
+}
+.upper {
+  width: 100%;
+  height: 80px;
+  /* border-style: solid; */
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.mid {
+  width: 360px;
+  height: 160px;
+  /* border-style: solid; */
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lower {
+  width: 100%;
+  height: 80px;
+  /* border-style: solid; */
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 25px;
+}
+.button {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  gap: 15px;
+  border-radius: 10px;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #d5d6da;
+}
+.bright {
+  font-weight: 600;
+  font-size: 30px;
+}
+.dim {
+  font-size: 25px;
+  color: rgb(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+.mid-inner {
+  height: 140px;
+  width: 340px;
+  /* border-style: solid; */
+  border-radius: 5px;
+  display: flex;
+}
+.dund {
+  width: 238px;
+  height: 100%;
+  /* border-style: solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 25px;
+}
+.zuun {
+  width: 51px;
+  height: 100%;
+  /* border-style: solid; */
+  display: flex;
+  /* justify-content: center; */
+}
+.baruun {
+  width: 51px;
+  height: 100%;
+  /* border-style: solid; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  align-items: flex-end;
+}
+.back {
+  border-style: solid;
+  border-color: rgb(0, 0, 0, 0.7);
+  border-width: thin;
+  width: fit-content;
+  padding: 3px 5px;
+  border-radius: 10px;
+}
+.circle {
+  border-style: solid;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50%;
+  padding: 5px;
+  border-color: rgb(0, 0, 0, 0.5);
+}
+.icons {
+  border-style: solid;
+  border-color: rgb(0, 0, 0, 0.7);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
