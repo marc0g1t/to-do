@@ -8,6 +8,80 @@ body {
   justify-content: center;
   background-size: cover;
 }
+.back-color {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.7);
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+
+.central-tower {
+  width: 400px;
+  height: 500px;
+  background-color: #fefefe;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: none; */
+  position: absolute;
+  left: 600px;
+  top: 190px;
+}
+.innerClick {
+  width: 360px;
+  height: 480px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.addTask {
+  font-size: 30px;
+  font-family: roboto;
+  font-weight: bold;
+}
+#bottonOFtitle {
+  width: 360px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+#bottonOFdescription {
+  width: 360px;
+  height: 90px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+#bottonOFStatus {
+  width: 367px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+#bottonOFPriority {
+  width: 367px;
+  height: 35px;
+
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.secondAddTask {
+  width: 367px;
+  height: 35px;
+  background-color: black;
+  color: white;
+  font-family: roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  cursor: pointer;
+  border-radius: 4px;
+}
 .container {
   width: 1600px;
   height: 350px;
@@ -18,7 +92,7 @@ body {
 }
 .sub {
   width: 380px;
-  height: 350px;
+  height: fit-content;
   /* border-style: solid; */
   border-radius: 15px;
   background-color: #ebecf0;
@@ -28,7 +102,7 @@ body {
 }
 .lightning {
   width: 360px;
-  height: 320px;
+  height: fit-content;
   /* border-style: solid; */
   /* border-color: red; */
 }
@@ -140,4 +214,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.dund {
+  width: 360px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
 }

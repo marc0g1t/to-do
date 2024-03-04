@@ -11,6 +11,44 @@
     ></script>
   </head>
   <body>
+    <div class="back-color" id="back-color">
+      <div class="central-tower">
+        <div class="innerClick">
+          <div id="addtask" class="addTask">Add task</div>
+          <div style="font-family: roboto" class="title">
+            <div class="tt">Title</div>
+            <textarea name="" id="bottonOFtitle" cols="30" rows="10"></textarea>
+          </div>
+          <div class="description">
+            <div style="font-family: roboto" class="tt">Description</div>
+            <textarea
+              name=""
+              id="bottonOFdescription"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="Status">
+            <div style="font-family: roboto" class="tt pro">Status</div>
+            <select name="" id="bottonOFStatus">
+              <option value="To-do" selected>To-Do</option>
+              <option value="In-progress">In-progress</option>
+              <option value="Stuck">Stuck</option>
+              <option value="Done">Done</option>
+            </select>
+          </div>
+          <div class="Priority">
+            <div style="font-family: roboto" class="tt">Priority</div>
+            <select name="" class="prog" id="bottonOFPriority">
+              <option value="low">low</option>
+              <option value="mid">mid</option>
+              <option value="high">high</option>
+            </select>
+          </div>
+          <div id="addTsk" class="secondAddTask">add task</div>
+        </div>
+      </div>
+    </div>
     <div class="container">
       <div class="sub">
         <div class="lightning">
@@ -18,24 +56,7 @@
             <div class="bright">To do</div>
             <div class="dim">1</div>
           </div>
-          <div class="mid">
-            <div class="mid-inner">
-              <div class="zuun">
-                <div class="circle">
-                  <i class="fa-solid fa-check" style="font-size: 20px"></i>
-                </div>
-              </div>
-              <div class="dund">
-                <div style="font-weight: bold">Todo</div>
-                <div>This is also a todo card</div>
-                <div class="back">High</div>
-              </div>
-              <div class="baruun">
-                <div class="icons"><i class="fa-solid fa-x"></i></div>
-                <div class="icons"><i class="fa-solid fa-pen"></i></div>
-              </div>
-            </div>
-          </div>
+          <div class="dund" id="first"></div>
           <div class="lower">
             <div class="button">
               <div>+</div>
@@ -47,27 +68,10 @@
       <div class="sub">
         <div class="lightning">
           <div class="upper">
-            <div class="bright">To do</div>
+            <div class="bright">In-progress</div>
             <div class="dim">1</div>
           </div>
-          <div class="mid">
-            <div class="mid-inner">
-              <div class="zuun">
-                <div class="circle">
-                  <i class="fa-solid fa-check" style="font-size: 20px"></i>
-                </div>
-              </div>
-              <div class="dund">
-                <div style="font-weight: bold">Todo</div>
-                <div>This is also a todo card</div>
-                <div class="back">High</div>
-              </div>
-              <div class="baruun">
-                <div class="icons"><i class="fa-solid fa-x"></i></div>
-                <div class="icons"><i class="fa-solid fa-pen"></i></div>
-              </div>
-            </div>
-          </div>
+          <div class="dund" id="second"></div>
           <div class="lower">
             <div class="button">
               <div>+</div>
@@ -79,27 +83,10 @@
       <div class="sub">
         <div class="lightning">
           <div class="upper">
-            <div class="bright">To do</div>
+            <div class="bright">Stuck</div>
             <div class="dim">1</div>
           </div>
-          <div class="mid">
-            <div class="mid-inner">
-              <div class="zuun">
-                <div class="circle">
-                  <i class="fa-solid fa-check" style="font-size: 20px"></i>
-                </div>
-              </div>
-              <div class="dund">
-                <div style="font-weight: bold">Todo</div>
-                <div>This is also a todo card</div>
-                <div class="back">High</div>
-              </div>
-              <div class="baruun">
-                <div class="icons"><i class="fa-solid fa-x"></i></div>
-                <div class="icons"><i class="fa-solid fa-pen"></i></div>
-              </div>
-            </div>
-          </div>
+          <div class="dund" id="third"></div>
           <div class="lower">
             <div class="button">
               <div>+</div>
@@ -111,27 +98,10 @@
       <div class="sub">
         <div class="lightning">
           <div class="upper">
-            <div class="bright">To do</div>
+            <div class="bright">Done</div>
             <div class="dim">1</div>
           </div>
-          <div class="mid">
-            <div class="mid-inner">
-              <div class="zuun">
-                <div class="circle">
-                  <i class="fa-solid fa-check" style="font-size: 20px"></i>
-                </div>
-              </div>
-              <div class="dund">
-                <div style="font-weight: bold">Todo</div>
-                <div>This is also a todo card</div>
-                <div class="back">High</div>
-              </div>
-              <div class="baruun">
-                <div class="icons"><i class="fa-solid fa-x"></i></div>
-                <div class="icons"><i class="fa-solid fa-pen"></i></div>
-              </div>
-            </div>
-          </div>
+          <div class="dund" id="fourth"></div>
           <div class="lower">
             <div class="button">
               <div>+</div>
@@ -142,4 +112,5 @@
       </div>
     </div>
   </body>
+  <script src="./app.js"></script>
 </html>
